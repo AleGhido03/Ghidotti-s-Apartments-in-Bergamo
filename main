@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghidotti's Apartments in Bergamo</title>
+    <style>
+        /* Stile del corpo della pagina e del contenitore principale */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        /* Stile degli elementi di testo */
+        h1 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            color: #666;
+            text-align: center;
+        }
+        /* Stile per i link */
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ghidotti's Apartments in Bergamo</h1>
+        <p>Benvenuti al nostro sito! Scopri i nostri appartamenti a Bergamo:</p>
+        <ul>
+            <li><a href="appartamento1.html">Centro Lussuoso Appartamento</a></li>
+            <li><a href="appartamento2.html">Esclusivo 120 MQ nel cuore di Bergamo</a></li>
+            <li><a href="appartamento3.html">BGY/CITY Confortevole appartamento nel BORGO</a></li>
+            <li><a href="appartamento4.html">Suite & Charme in un palazzo storico di Bergamo</a></li>
