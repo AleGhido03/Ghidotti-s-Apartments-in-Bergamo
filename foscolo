@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Lussuoso Appartamento</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #444;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Centro Lussuoso Appartamento</h1>
+        <p>Descrizione dell'appartamento:</p>
+        <!-- Descrizione presa dall'annuncio Airbnb -->
+        <p>...</p>
+        <img src="URL_IMMAGINE_APPARTAMENTO_1" alt="Immagine Appartamento 1">
+        <!-- Aggiungi altre immagini se necessario -->
+        <form action="invia_email.php" method="post">
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Messaggio:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Prenota">
+        </form>
+    </div>
+</body>
+</html>
