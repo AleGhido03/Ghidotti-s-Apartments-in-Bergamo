@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suite & Charme in un palazzo storico di Bergamo</title>
+    <style>
+        /* Stili CSS per la pagina */
+        /* Personalizza gli stili secondo le tue preferenze */
+        /* ... */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Suite & Charme in un palazzo storico di Bergamo</h1>
+        <p>Descrizione dell'appartamento:</p>
+        <!-- Descrizione presa dall'annuncio Airbnb -->
+        <p>...</p>
+        <img src="URL_IMMAGINE_APPARTAMENTO_4" alt="Immagine Appartamento 4">
+        <!-- Aggiungi altre immagini se necessario -->
+        <form action="invia_email.php" method="post">
+            <label for="name">Nome:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Messaggio:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Prenota">
+        </form>
+    </div>
+</body>
+</html>
